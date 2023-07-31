@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --primary-color: #52b3d0;
+    --secundary-color: #ccc;
+
+}
+
+  
+.color-primary {
+    color: var(--primary-color);
+}
+
+@screen sm {
+    .color-primary {
+      color: var(--secundary-color);
+    }
+}
+
+  
